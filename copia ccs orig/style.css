@@ -1,4 +1,4 @@
-.logo-che {
+/* .logo-che {
     width: -50%;
     height: -50%;
 }
@@ -9,7 +9,7 @@ li {
 
 a {
     text-decoration: none;
-}
+} */
 
 /* MAIN INDEX */
 
@@ -32,11 +32,11 @@ a {
     font-size: 2rem;
 }
 
-.lista-centrada a {
+/* .lista-centrada a {
     color: aliceblue;
     font-size: 15px;
     margin: 0 5px 0 5px;
-}
+} */
 
 /* .header {
     padding-bottom: 300px;
@@ -465,7 +465,7 @@ a {
     text-align: center;
 }
 
-/* FOOTER */
+/* FOOTER
 
 .footer-icons {
     width: 25px;
@@ -493,7 +493,7 @@ a {
 
 .footer h1 {
     font-size: 1.2em;
-}
+} */
 
 
 
@@ -958,10 +958,10 @@ card-group-scroll {
 
 }
 @media (max-width: 535px) {
-    .lugares img {
+    /* .lugares img {
         width: 100%;
         max-width: 550px;
-    }
+    } */
     /* .contenedor-top-5-places {
         grid-template-columns: 1fr;
         grid-template-rows: 50px 0.2fr 0.8fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;

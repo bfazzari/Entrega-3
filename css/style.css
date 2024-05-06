@@ -1,9 +1,20 @@
 @import url("https:fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif; }
+
+.logo-che {
+  width: -50%;
+  height: -50%; }
+
+li {
+  display: inline; }
+
+a {
+  text-decoration: none; }
 
 .header {
   padding-bottom: 300px;
@@ -49,6 +60,81 @@
 .nav-item:hover {
   color: yellow; }
 
+.contenedor-frases {
+  padding: 9.375rem 0rem 3.75rem 0rem;
+  background-image: url(/resources/imgs/phrases/textura-papel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center; }
+  .contenedor-frases .frase {
+    position: relative;
+    width: 775px;
+    margin: auto; }
+    .contenedor-frases .frase h2 {
+      font-family: "Rubik Mono One", monospace;
+      font-style: italic; }
+
+.container-lugares-mas-importantes h2 {
+  margin-top: 75px; }
+
+.container-lugares-mas-importantes iframe {
+  margin: 30px auto;
+  width: 100%; }
+
+.container-lugares-mas-importantes button {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 0 10px;
+  margin-bottom: 15px; }
+
+.container-lugares-mas-importantes button:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.7s ease-in-out; }
+
+.container-lugares-mas-importantes button:not(:hover) {
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+  transition: box-shadow 0.4s ease-in-out; }
+
+@media (max-width: 535px) {
+  .lugares img {
+    width: 100%;
+    max-width: 550px; } }
+
+/* FOOTER */
+.footer-icons {
+  width: 25px;
+  display: inline-block;
+  background-color: #c7cfd6;
+  min-height: 25px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center; }
+
+.footer {
+  display: flex;
+  background-color: #c7cfd6;
+  min-height: 25px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  margin: 30px 0 0 0;
+  padding-top: 10px; }
+
+.footer h1 {
+  font-size: 1.2em; }
+
+.lista-centrada a {
+  color: aliceblue;
+  font-size: 15px;
+  margin: 0 5px 0 5px; }
+
 .festival {
   text-align: center;
   margin: 25px auto; }
@@ -66,8 +152,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.1fr 0.3fr 0.3fr 0.1fr;
   grid-template-areas: "textotop textotop textotop textotop" "media logo top1 top2" "media top3 top4 top5" "media footer footer footer";
-  grid-gap: 0.5rem;
-  margin: 5em 25px 1em 25px; }
+  grid-gap: 1rem;
+  margin: 5em 5em; }
 
 .texto-top {
   grid-area: textotop;
@@ -90,6 +176,17 @@
   font-size: 2em;
   font-weight: 900;
   color: black; }
+
+.fondo-aberraciones-tv {
+  background-image: url(/resources/imgs/gifs/bad-tv.gif);
+  background-size: cover;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border-radius: 3%; }
+
+.fondo-aberraciones-tv:hover {
+  filter: blur(3px); }
 
 .t5p-media {
   grid-area: media; }

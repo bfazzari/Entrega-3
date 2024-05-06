@@ -1,0 +1,65 @@
+// FRASES RANDOM
+.contenedor-frases {
+    padding: 9.375rem 0rem 3.75rem 0rem;
+    background-image: url(/resources/imgs/phrases/textura-papel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+      /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+ 
+
+    .frase {
+        position: relative;
+        width: 775px;
+        margin: auto;
+
+        h2 {
+            font-family: $fuente-frases;
+            font-style: italic;
+        }
+    }
+}
+// GRILLA DE LUGARES MAS IMPORTANTES
+.container-lugares-mas-importantes {
+    h2{
+        margin-top: 75px;
+    }
+    iframe{
+        margin: 30px auto;
+        width: 100%;
+    }
+   
+       button {
+        background-color: white;
+        border: none;
+        border-radius: 15px;
+        padding: 0 10px;
+        margin-bottom: 15px;
+    }
+    button:hover {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        transition: box-shadow 0.7s ease-in-out;
+
+    }
+
+    button:not(:hover) {
+        box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+        transition: box-shadow 0.4s ease-in-out;
+    }
+
+}
+
+
+// RESPONSIVE - MEDIA QUERIES
+
+@media (max-width: 535px) {
+    .lugares img {
+        width: 100%;
+        max-width: 550px;
+    }
+}
