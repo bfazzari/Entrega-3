@@ -1,0 +1,1057 @@
+.logo-che {
+    width: -50%;
+    height: -50%;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* MAIN INDEX */
+
+/* .lugar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: solid green 2px;
+    min-height: 550px;
+    align-content: space-around;
+    width: 650px;
+    align-items: center;
+}  */
+
+
+.logo {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.lista-centrada a {
+    color: aliceblue;
+    font-size: 15px;
+    margin: 0 5px 0 5px;
+}
+
+/* .header {
+    padding-bottom: 300px;
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2022/08/What-Is-the-Future-of-Live-Music.jpg?w=1600&h=900&crop=1);
+    background-size: cover;
+    background-position-y: center;
+} */
+
+/* INDEX */
+.header-index {
+    padding-bottom: 300px;
+    background-image: url(https://media.timeout.com/images/100629741/image.jpg.wikimedia.org/wikipedia/commons/1/18/Rock_concert_in_black_and_white_%28Unsplash%29.jpg);
+    background-size: cover;
+    background-position-y: center;
+    filter: grayscale(85%);
+
+}
+
+
+.header-bandas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 300px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/18/Rock_concert_in_black_and_white_%28Unsplash%29.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+
+
+.header-lugares {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 300px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5e171c3a42bea35a20108311/e1010926-5b1c-4d67-9866-615bb6e0d487/275815900_1907583596119246_4501874139538143795_n.jpeg);
+    background-size: cover;
+    background-position-y: center;
+    filter: grayscale(100%);
+}
+
+.main-index h2 {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.pasos-a-seguir {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    margin: 90px 0 200px 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 5px 5px 25px;
+}
+
+.pasos-a-seguir p {
+    display: inline;
+}
+
+.pasos {
+    display: flex;
+    width: 50%;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* NEWSLETTER */
+
+.newsletter {
+    display: flex;
+    background-color: rgb(82, 82, 95);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    min-height: 150px;
+    margin-top: 50px;
+    border-top: 50px;
+}
+
+.newsletter input {
+    width: 75%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #FF6600;
+    border-radius: 10px;
+}
+
+/* DESCRIPCION */
+
+.descripcion {
+    margin: 100px 250px 0 250px;
+}
+
+/* TOP 5 PLACES */
+/* .contenedor-top-5-places {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 0.3fr 0.3fr 0.1fr;
+    grid-template-areas:
+        "textotop textotop textotop textotop"
+        "media logo top1 top2"
+        "media top3 top4 top5"
+        "media footer footer footer";
+    grid-gap: 0.5rem;
+    margin: 5em 25px 1em 25px;
+} */
+
+/* .texto-top {
+    grid-area: textotop;
+    text-align: center;
+    margin-bottom: 10px;
+} */
+
+/* .logo {
+    grid-area: logo;
+    position: relative;
+}
+
+.logo h1 {
+    text-align: center;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+    position: absolute;
+    font-size: 2em;
+    font-weight: 900;
+    color: black;
+
+} */
+/* 
+.t5p-media {
+    grid-area: media;
+}
+
+.top-1 {
+    grid-area: top1;
+}
+
+.top-2 {
+    grid-area: top2;
+}
+
+.top-3 {
+    grid-area: top3;
+}
+
+.top-4 {
+    grid-area: top4;
+}
+
+.top-5 {
+    grid-area: top5;
+}
+
+.contenedor-top-5-places .card {
+    max-width: 75%;
+    border-radius: 5px;
+    margin: 0 auto;
+    height: 100%;
+    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.top-5-footer {
+
+    grid-area: footer;
+}
+
+.top5-places img {
+    width: 200px;
+}
+
+.top5-places {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 300px 50px 300px;
+}
+
+.top5-places div {
+    width: 200px;
+    min-height: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: inline-block;
+    margin: 15px 0 0 0;
+}
+
+.top5-places img {
+    margin-bottom: 25px;
+}
+
+.texto-random-centrado {
+    margin: 0 150px 0 150px;
+    text-align: ce;
+} */
+
+/* LUGARES */
+/* .contenedor-grilla-lugares {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+} */
+
+
+
+.card-lugar-1 {
+    background-image: url(https://c8.alamy.com/comp/P7XWK7/rock-concert-party-event-music-festival-and-lighting-stage-concept-youth-and-fan-club-concept-people-and-lifestyle-theme-live-stage-show-theme-P7XWK7.jpg);
+}
+
+.banner-lugares {
+    background-image: url(https://as1.ftcdn.net/v2/jpg/02/43/59/98/1000_F_243599897_BGb00BvQ4rDfwOCmta1cmZPNXqmDRsqS.jpg);
+}
+
+.main-lugares h2 {
+    text-align: center;
+}
+
+
+.lugares {
+    display: flex;
+    /* border: dotted green 2px; */
+    flex-wrap: nowrap;
+    padding: 0 100px 0 100px;
+    margin: 50px 0 0 0;
+    flex-direction: row;
+}
+
+.lugares h2 {
+    text-align: left;
+}
+
+.lugares li a {
+    text-align: left;
+    color: dimgrey;
+}
+
+.lugares img {
+    width: 550px;
+    /* border: dotted 3px black; */
+
+}
+
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 25px 0 25px 0;
+}
+
+.iconos img {
+    width: 50px;
+}
+
+
+.bandas {
+    display: flex;
+    /* border: dotted green 2px; */
+    flex-wrap: nowrap;
+    padding: 0 100px 0 100px;
+    margin: 50px 0 0 0;
+    flex-direction: row;
+}
+
+
+.bandas img {
+    width: 550px;
+    /* border: dotted 3px black; */
+
+}
+
+.bandas h1 {
+    text-align: right;
+}
+
+.bandas h2 {
+    text-align: right;
+}
+
+.bandas li a {
+    text-align: right;
+    color: dimgrey;
+}
+
+.bandas img {
+    width: 200px;
+}
+
+.bandas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 300px 50px 300px;
+}
+
+.bandas div {
+    width: 200px;
+    min-height: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: inline-block;
+    margin: 25px 0 0 0;
+    background-color: #c1caff36;
+}
+
+.bandas img {
+    margin-bottom: 25px;
+}
+
+.contenedor-bandas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.contenedor-bandas .card {
+    margin: 1em auto;
+}
+
+.main-bandas h2 {
+    text-align: center;
+}
+
+.main-bandas p {
+    text-align: center;
+    color: black;
+}
+
+.bandas button {
+    background-color: black;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+}
+
+
+.container-form {
+    background-color: rgb(238, 238, 238);
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 800px;
+
+}
+
+/* FORMULARIO CONTACTO */
+
+.contenedor-form {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 5px 5px 25px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+    margin: 100px 450px 100px 450px;
+    padding: 100px 0 100px 0;
+}
+
+.main-contacto h2 {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.main-contacto h3 {
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.main-contacto p {
+    margin: auto 250px;
+    text-align: left;
+}
+
+/* FAQ */
+.contenedor-faq {
+    background-color: #e9eced;
+    padding: 1px;
+}
+
+.faq {
+    width: 75%;
+    margin: 100px auto;
+
+}
+
+.faq h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.accordion-header {
+    margin: 5px auto !important;
+}
+
+/* BANNER LOGO */
+.banner-logo {
+    background-color: black;
+}
+
+.banner-logo p {
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+/* FOOTER */
+
+.footer-icons {
+    width: 25px;
+    display: inline-block;
+    background-color: rgb(199, 207, 214);
+    min-height: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(199, 207, 214);
+    min-height: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 30px 0 0 0;
+    padding-top: 10px;
+
+}
+
+.footer h1 {
+    font-size: 1.2em;
+}
+
+
+
+.titulo-separador {
+    border: double 10px rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: rgba(129, 129, 129, 0.712);
+    color: white;
+}
+
+/* MAPA */
+
+.mapa {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.mapa iframe {
+    width: 100%;
+}
+
+/* NOSOTROS */
+
+.header-nosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 300px;
+    background-image: url(https://img.freepik.com/premium-photo/black-white-photo-crowd-concert_662214-201149.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+.nosotros {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 40px 30px 50px 300px;
+    max-width: 250px;
+    flex-direction: row;
+}
+
+
+.profile img {
+
+    width: 150px;
+    border-radius: 50%;
+    flex-direction: row;
+    align-self: center;
+    overflow: hidden;
+}
+
+/* BOOTSTRAP */
+
+/* .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav li {
+    text-align: right;
+
+}
+
+.bg-body-tertiary {
+    background-color: black !important;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.active,
+.navbar-brand {
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    font-weight: bold;
+    color: yellow;
+}
+
+.navbar-brand:hover {
+    font-weight: bold;
+    color: yellow;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+.nav-item:hover {
+    color: yellow;
+} */
+
+/* GRILLA */
+
+.contenedor-grilla {
+    background-color: black;
+}
+
+.img-overflow {
+    overflow: hidden;
+}
+
+.contenedor-grilla h1,
+hr,
+p {
+    color: white;
+    margin-top: 25px;
+}
+
+.contenedor-grilla button {
+    background-color: yellow;
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.contenedor-grilla button:hover {
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* EVENTOS CERCA */
+.eventos {
+    display: block;
+}
+
+.eventos-cerca {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.eventos-cerca card {
+    display: block;
+}
+
+.eventos-cerca p {
+    color: grey;
+}
+
+.card-group,
+card-group-scroll {
+    width: 85%;
+    margin: auto;
+}
+
+.card-body p {
+    color: grey;
+}
+
+
+/* GRILLA LUGARES */
+
+.contenedor-grilla-lugares {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+
+    /* GRID */
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.titulo {
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.textos-mejores-festivales {
+    margin: 2em 4em;
+    text-align: center;
+}
+
+.contenedor-lugares {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 {
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-1 {
+    background-image: url(https://st4.depositphotos.com/5392356/38061/i/450/depositphotos_380610030-stock-photo-happy-cheering-crowd-hands-air.jpg);
+}
+
+.card-2 {
+    background-image: url(https://i.pinimg.com/736x/c8/6f/b0/c86fb0b4ffe2e422a19211fe080de4ce.jpg);
+}
+
+.card-3 {
+    background-image: url(https://assets-global.website-files.com/655e0fa544c67c1ee5ce01c7/655e0fa544c67c1ee5ce0eb9_how-to-get-gigs-complete-guide-for-musicians.jpeg);
+}
+
+.card-4 {
+    background-image: url(https://cdn-p.smehost.net/sites/7f9737f2506941499994d771a29ad47a/wp-content/uploads/2020/02/people-having-a-concert-1190297.jpg);
+}
+
+.card-5 {
+    background-image: url(https://media.gettyimages.com/id/160166080/video/m-s-ext-live-concert-crowd-night-festival.jpg?s=640x640&k=20&c=qB-GzlxowiOVvxY4r8MKkfrUTrwG1RSXuazTeKmax9Y=);
+}
+
+.card-6 {
+    background-image: url(https://www.alpinehearingprotection.co.uk/cdn/shop/articles/bannerblogwebshopmuziek1_a02523f3-0426-4a67-9bf9-7c310aae843a.png?v=1665066849&width=1100);
+}
+
+.card-1 .textos,
+.card-2 .textos,
+.card-3 .textos,
+.card-4 .textos,
+.card-5 .textos,
+.card-6 .textos {
+    height: 100%;
+    color: white;
+    /* FLEXBOX */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* GRID
+    display: grid;
+    grid-template-rows: 1fr auto; */
+}
+
+.banner {
+    border-radius: 10px;
+    text-align: center !important;
+    padding: 20px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(https://i.pinimg.com/originals/dc/48/bb/dc48bb6f79faf61a7ed3e20f42d60569.jpg);
+    /* FLEXBOX */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner ul {
+    list-style: none;
+}
+
+.banner ul li {
+    margin: 15px;
+    font-weight: bold;
+    display: block;
+}
+
+.banner .boton {
+    background: #FFD600;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+/* BUSCADOR DE LUGARES */
+
+.contenedor-buscador-lugares {
+    width: 100%;
+    height: 300px;
+    /* max-width: 1200px; */
+    margin: auto;
+    padding: 40px 0;
+    /* GRID */
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr;
+    background-image: url(../imgs/lugares/rockbands-wallpaper.jpg);
+}
+
+.contenedor-buscador-lugares .col {
+    /* background-color: red; */
+    margin: auto 5px;
+}
+
+/* FESTIVAL */
+/* .festival {
+    text-align: center;
+    margin: 25px auto;
+}
+
+.festival img:hover {
+    filter: invert(75%);
+}
+
+.festival img {
+    width: 100%;
+    max-width: 653px;
+} */
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1290px) {
+    .main-contacto p {
+        width: 60%;
+        margin: auto;
+        text-align: left;
+
+    }
+}
+
+@media (max-width: 1024px) {
+    .texto-random-centrado {
+        margin: 0 50px;
+
+    }
+
+    .lugares {
+        display: flex;
+        /* border: dotted green 2px; */
+        flex-wrap: nowrap;
+        padding: 0 100px 0 100px;
+        margin: 50px 0 0 0;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .festival {
+        text-align: center;
+        margin: 80px auto 0 auto;
+    }
+
+    .header {
+        padding-bottom: 0px;
+        /* background-image: none; */
+    }
+
+    .main-contacto p {
+        width: 80%;
+    }
+
+    .main-contacto h2 {
+        text-align: center;
+        margin: 60px auto;
+    }
+
+    .contenedor-buscador-lugares .row {
+        flex-direction: column;
+    }
+
+    .contenedor-buscador-lugares .dropdown {
+        display: none;
+    }
+
+    .contenedor-grilla {
+        padding: 30px;
+    }
+
+    .textos-mejores-festivales {
+        margin: 4em 4em 0 4em;
+    }
+}
+
+@media (max-width: 699px) {
+    .festival img {
+        max-width: 699px;
+    }
+
+    .header {
+        margin-top: 100px;
+
+        /* background-image: none; */
+    }
+
+    .main-contacto p {
+        display: none;
+
+    }
+
+    .textos-mejores-festivales h4 {
+        display: none;
+    }
+
+    .contenedor-grilla-lugares {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 40px 0;
+        gap: 20px;
+    }
+
+    .contenedor-lugares .textos {
+        height: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: rotate(-90deg);
+
+    }
+
+    .contenedor-lugares p {
+        display: none;
+
+    }
+
+    .contenedor-grilla {
+        display: none;
+    }
+
+    .contenedor-buscador-lugares {
+        background-image: none;
+    }
+
+    /* GRILLA */
+    /* .contenedor-top-5-places {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1px 0.2fr 0.8fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-areas:
+            "textotop"
+            "logo"
+            "media"
+            "top1"
+            "top2"
+            "top3"
+            "top4"
+            "top5"
+            "footer";
+    } */
+
+
+}
+@media (max-width: 535px) {
+    .lugares img {
+        width: 100%;
+        max-width: 550px;
+    }
+    /* .contenedor-top-5-places {
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px 0.2fr 0.8fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-areas:
+            "textotop"
+            "logo"
+            "media"
+            "top1"
+            "top2"
+            "top3"
+            "top4"
+            "top5"
+            "footer";
+    } */
+}
+@media (max-width: 550px) {
+    .lugares img {
+        width: 100%;
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 391px) {
+        .header {
+            margin-top: 100px;
+
+            /* background-image: none; */
+        }
+
+        .main-contacto p {
+            display: none;
+
+        }
+
+        .textos-mejores-festivales h4 {
+            display: none;
+        }
+
+        .contenedor-grilla-lugares {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: stretch;
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px 0;
+            gap: 20px;
+        }
+
+        .contenedor-lugares .textos {
+            height: 100%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transform: rotate(-90deg);
+
+        }
+
+        .contenedor-lugares p {
+            display: none;
+
+        }
+
+        .contenedor-grilla {
+            display: none;
+        }
+
+        .contenedor-buscador-lugares {
+            background-image: none;
+        }
+
+        .lugares {
+            display: none;
+        }
+
+        /* .contenedor-top-5-places {
+            grid-template-columns: 1fr;
+            grid-template-rows: 50px 0.2fr 0.8fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+            grid-template-areas:
+                "textotop"
+                "logo"
+                "media"
+                "top1"
+                "top2"
+                "top3"
+                "top4"
+                "top5"
+                "footer";
+        } */
+    }

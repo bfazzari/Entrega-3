@@ -1,0 +1,165 @@
+@import url("https:fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif; }
+
+.header {
+  padding-bottom: 300px;
+  background-image: url(https://www.rollingstone.com/wp-content/uploads/2022/08/What-Is-the-Future-of-Live-Music.jpg?w=1600&h=900&crop=1);
+  background-size: cover;
+  background-position-y: center; }
+
+/* BOOTSTRAP */
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end; }
+
+.navbar-nav li {
+  text-align: right; }
+
+.bg-body-tertiary {
+  background-color: black !important;
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99; }
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.active,
+.navbar-brand {
+  color: white;
+  text-transform: uppercase; }
+
+.navbar-nav .nav-link.active {
+  font-weight: bold; }
+
+.navbar-nav .nav-link:hover {
+  font-weight: bold;
+  color: yellow; }
+
+.navbar-brand:hover {
+  font-weight: bold;
+  color: yellow; }
+
+.navbar-toggler-icon {
+  filter: invert(100%); }
+
+.nav-item:hover {
+  color: yellow; }
+
+.festival {
+  text-align: center;
+  margin: 25px auto; }
+
+.festival img:hover {
+  filter: invert(75%); }
+
+.festival img {
+  width: 100%;
+  max-width: 653px; }
+
+.contenedor-top-5-places {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 0.3fr 0.3fr 0.1fr;
+  grid-template-areas: "textotop textotop textotop textotop" "media logo top1 top2" "media top3 top4 top5" "media footer footer footer";
+  grid-gap: 0.5rem;
+  margin: 5em 25px 1em 25px; }
+
+.texto-top {
+  grid-area: textotop;
+  text-align: center;
+  margin-bottom: 10px; }
+
+.logo {
+  grid-area: logo;
+  position: relative; }
+
+.logo h1 {
+  text-align: center;
+  height: 50px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  margin: auto;
+  position: absolute;
+  font-size: 2em;
+  font-weight: 900;
+  color: black; }
+
+.t5p-media {
+  grid-area: media; }
+
+.top-1 {
+  grid-area: top1; }
+
+.top-2 {
+  grid-area: top2; }
+
+.top-3 {
+  grid-area: top3; }
+
+.top-4 {
+  grid-area: top4; }
+
+.top-5 {
+  grid-area: top5; }
+
+.contenedor-top-5-places .card {
+  max-width: 75%;
+  border-radius: 5px;
+  margin: 0 auto;
+  height: 100%;
+  box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.2); }
+
+.top-5-footer {
+  grid-area: footer; }
+
+.top5-places img {
+  width: 200px; }
+
+.top5-places {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 40px 300px 50px 300px; }
+
+.top5-places div {
+  width: 200px;
+  min-height: 300px;
+  /* border: solid red 10px; */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: inline-block;
+  margin: 15px 0 0 0; }
+
+.top5-places img {
+  margin-bottom: 25px; }
+
+.texto-random-centrado {
+  margin: 0 150px 0 150px;
+  text-align: ce; }
+
+@media (max-width: 699px) {
+  .contenedor-top-5-places {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1px 0.2fr 0.8fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-areas: "textotop" "logo" "media" "top1" "top2" "top3" "top4" "top5" "footer"; } }
+
+@media (max-width: 535px) {
+  .contenedor-top-5-places {
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 0.2fr 0.8fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-areas: "textotop" "logo" "media" "top1" "top2" "top3" "top4" "top5" "footer"; } }
+
+@media (max-width: 391px) {
+  .contenedor-top-5-places {
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 0.2fr 0.8fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-areas: "textotop" "logo" "media" "top1" "top2" "top3" "top4" "top5" "footer"; } }
