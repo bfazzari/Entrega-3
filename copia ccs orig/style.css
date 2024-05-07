@@ -248,7 +248,7 @@ a {
     text-align: ce;
 } */
 
-/* LUGARES */
+/* LUGARES NO SE SI YA ESTABA COMENTADO */
 /* .contenedor-grilla-lugares {
     width: 90%;
     max-width: 1200px;
@@ -365,7 +365,7 @@ a {
     margin-bottom: 25px;
 }
 
-.contenedor-bandas {
+/* .contenedor-bandas {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -374,16 +374,16 @@ a {
 
 .contenedor-bandas .card {
     margin: 1em auto;
-}
+} */
 
-.main-bandas h2 {
+/* .main-bandas h2 {
     text-align: center;
 }
 
 .main-bandas p {
     text-align: center;
     color: black;
-}
+} */
 
 .bandas button {
     background-color: black;
@@ -608,14 +608,14 @@ a {
     overflow: hidden;
 }
 
-.contenedor-grilla h1,
+/* .contenedor-grilla h1,
 hr,
 p {
     color: white;
     margin-top: 25px;
-}
+} */
 
-.contenedor-grilla button {
+/* .contenedor-grilla button {
     background-color: yellow;
     border: none;
     color: black;
@@ -628,7 +628,7 @@ p {
     border: none;
     color: black;
     font-weight: bold;
-}
+} */
 
 /* EVENTOS CERCA */
 .eventos {
@@ -662,33 +662,33 @@ card-group-scroll {
 
 /* GRILLA LUGARES */
 
-.contenedor-grilla-lugares {
+/* .contenedor-grilla-lugares {
     width: 90%;
     max-width: 1200px;
     margin: auto;
-    padding: 40px 0;
+    padding: 40px 0; */
 
-    /* GRID */
+    /* GRID
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 20px;
-}
+} */
 
 .titulo {
     font-size: 24px;
     padding: 20px 0;
 }
 
-.textos-mejores-festivales {
+/* .textos-mejores-festivales {
     margin: 2em 4em;
     text-align: center;
-}
+} */
 
-.contenedor-lugares {
+/* .contenedor-lugares {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-}
+} */
 
 .card-1,
 .card-2,
@@ -784,7 +784,7 @@ card-group-scroll {
     cursor: pointer;
 }
 
-/* BUSCADOR DE LUGARES */
+BUSCADOR DE LUGARES
 
 .contenedor-buscador-lugares {
     width: 100%;
@@ -874,13 +874,13 @@ card-group-scroll {
         display: none;
     }
 
-    .contenedor-grilla {
+    /* .contenedor-grilla {
         padding: 30px;
-    }
+    } */
 
-    .textos-mejores-festivales {
+    /* .textos-mejores-festivales {
         margin: 4em 4em 0 4em;
-    }
+    } */
 }
 
 @media (max-width: 699px) {
@@ -899,11 +899,11 @@ card-group-scroll {
 
     }
 
-    .textos-mejores-festivales h4 {
+    /* .textos-mejores-festivales h4 {
         display: none;
-    }
+    } */
 
-    .contenedor-grilla-lugares {
+    /* .contenedor-grilla-lugares {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -913,9 +913,9 @@ card-group-scroll {
         margin: auto;
         padding: 40px 0;
         gap: 20px;
-    }
+    } */
 
-    .contenedor-lugares .textos {
+    /* .contenedor-lugares .textos {
         height: 100%;
         color: white;
         display: flex;
@@ -929,11 +929,11 @@ card-group-scroll {
     .contenedor-lugares p {
         display: none;
 
-    }
+    } */
 
-    .contenedor-grilla {
+    /* .contenedor-grilla {
         display: none;
-    }
+    } */
 
     .contenedor-buscador-lugares {
         background-image: none;
@@ -996,11 +996,11 @@ card-group-scroll {
 
         }
 
-        .textos-mejores-festivales h4 {
+        /* .textos-mejores-festivales h4 {
             display: none;
-        }
+        } */
 
-        .contenedor-grilla-lugares {
+        /* .contenedor-grilla-lugares {
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
@@ -1010,9 +1010,9 @@ card-group-scroll {
             margin: auto;
             padding: 40px 0;
             gap: 20px;
-        }
+        } */
 
-        .contenedor-lugares .textos {
+        /* .contenedor-lugares .textos {
             height: 100%;
             color: white;
             display: flex;
@@ -1026,11 +1026,11 @@ card-group-scroll {
         .contenedor-lugares p {
             display: none;
 
-        }
+        } */
 
-        .contenedor-grilla {
+        /* .contenedor-grilla {
             display: none;
-        }
+        } */
 
         .contenedor-buscador-lugares {
             background-image: none;
