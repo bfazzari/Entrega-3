@@ -16,6 +16,90 @@ li {
 a {
   text-decoration: none; }
 
+.header {
+  padding-bottom: 300px;
+  background-image: url(https://www.rollingstone.com/wp-content/uploads/2022/08/What-Is-the-Future-of-Live-Music.jpg?w=1600&h=900&crop=1);
+  background-size: cover;
+  background-position-y: center; }
+
+/* BOOTSTRAP */
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end; }
+
+.navbar-nav li {
+  text-align: right; }
+
+.bg-body-tertiary {
+  background-color: black !important;
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99; }
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.active,
+.navbar-brand {
+  color: white;
+  text-transform: uppercase; }
+
+.navbar-nav .nav-link.active {
+  font-weight: bold; }
+
+.navbar-nav .nav-link:hover {
+  font-weight: bold;
+  color: yellow; }
+
+.navbar-brand:hover {
+  font-weight: bold;
+  color: yellow; }
+
+.navbar-toggler-icon {
+  filter: invert(100%); }
+
+.nav-item:hover {
+  color: yellow; }
+
+/* FOOTER */
+.footer-icons {
+  width: 25px;
+  display: inline-block;
+  background-color: #c7cfd6;
+  min-height: 25px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center; }
+
+.footer {
+  display: flex;
+  background-color: #c7cfd6;
+  min-height: 25px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  margin: 30px 0 0 0;
+  padding-top: 10px; }
+
+.footer h1 {
+  font-size: 1.2em; }
+
+.lista-centrada a {
+  color: aliceblue;
+  font-size: 15px;
+  margin: 0 5px 0 5px; }
+
+.header-index {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 300px;
+  background-image: url(https://www.rollingstone.com/wp-content/uploads/2022/08/What-Is-the-Future-of-Live-Music.jpg?w=1600&h=900&crop=1);
+  background-size: cover;
+  background-position-y: center;
+  filter: grayscale(100%); }
+
 .contenedor-frases {
   padding: 9.375rem 0rem 3.75rem 0rem;
   background-image: url(/resources/imgs/phrases/textura-papel.jpg);
@@ -60,6 +144,16 @@ a {
   .lugares img {
     width: 100%;
     max-width: 550px; } }
+
+.header-lugares {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 300px;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5e171c3a42bea35a20108311/e1010926-5b1c-4d67-9866-615bb6e0d487/275815900_1907583596119246_4501874139538143795_n.jpeg);
+  background-size: cover;
+  background-position-y: center;
+  filter: grayscale(100%); }
 
 .textos-mejores-festivales {
   margin: 2em 4em;
@@ -293,79 +387,180 @@ p {
   .contenedor-grilla {
     padding: 30px; } }
 
-.header {
+.header-contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding-bottom: 300px;
-  background-image: url(https://www.rollingstone.com/wp-content/uploads/2022/08/What-Is-the-Future-of-Live-Music.jpg?w=1600&h=900&crop=1);
+  background-image: url(https://images6.alphacoders.com/438/438072.jpg);
+  background-size: cover;
+  background-position-y: center;
+  filter: grayscale(100%); }
+
+/* FORMULARIO CONTACTO */
+.contenedor-form {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 5px 5px 25px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #eeeeee;
+  margin: 100px 450px 100px 450px;
+  padding: 100px 0 100px 0; }
+
+.main-contacto h2 {
+  text-align: center;
+  margin: 30px auto; }
+
+.main-contacto h3 {
+  margin: 20px auto;
+  text-align: center; }
+
+.main-contacto p {
+  margin: auto 250px;
+  text-align: left; }
+
+.container-form {
+  background-color: #eeeeee;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 800px; }
+
+/* MAPA */
+.mapa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.mapa iframe {
+  width: 100%; }
+
+/* FAQ */
+.contenedor-faq {
+  background-color: #e9eced;
+  padding: 1px; }
+
+.faq {
+  width: 75%;
+  margin: 100px auto; }
+
+.faq h1 {
+  text-align: center;
+  margin-bottom: 25px; }
+
+.accordion-header {
+  margin: 5px auto !important; }
+
+@media (max-width: 1290px) {
+  .main-contacto p {
+    width: 60%;
+    margin: auto;
+    text-align: left; } }
+
+@media (max-width: 991px) {
+  .main-contacto p {
+    width: 80%; }
+  .main-contacto h2 {
+    text-align: center;
+    margin: 60px auto; } }
+
+@media (max-width: 699px) {
+  .main-contacto p {
+    display: none; } }
+
+@media (max-width: 391px) {
+  .main-contacto p {
+    display: none; } }
+
+.header-bandas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 300px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/18/Rock_concert_in_black_and_white_%28Unsplash%29.jpg);
   background-size: cover;
   background-position-y: center; }
 
-/* BOOTSTRAP */
-.navbar-expand-lg .navbar-collapse {
-  justify-content: flex-end; }
+.main-bandas h2 {
+  text-align: center; }
 
-.navbar-nav li {
+.main-bandas p {
+  text-align: center;
+  color: black; }
+
+.bandas {
+  display: flex;
+  /* border: dotted green 2px; */
+  flex-wrap: nowrap;
+  padding: 0 100px 0 100px;
+  margin: 50px 0 0 0;
+  flex-direction: row; }
+
+.bandas img {
+  width: 550px;
+  /* border: dotted 3px black; */ }
+
+.bandas h1 {
   text-align: right; }
 
-.bg-body-tertiary {
-  background-color: black !important;
-  opacity: 0.8;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 99; }
+.bandas h2 {
+  text-align: right; }
 
-.navbar-nav .nav-link,
-.navbar-nav .nav-link.active,
-.navbar-brand {
-  color: white;
-  text-transform: uppercase; }
+.bandas li a {
+  text-align: right;
+  color: dimgrey; }
 
-.navbar-nav .nav-link.active {
-  font-weight: bold; }
+.bandas img {
+  width: 200px; }
 
-.navbar-nav .nav-link:hover {
-  font-weight: bold;
-  color: yellow; }
-
-.navbar-brand:hover {
-  font-weight: bold;
-  color: yellow; }
-
-.navbar-toggler-icon {
-  filter: invert(100%); }
-
-.nav-item:hover {
-  color: yellow; }
-
-/* FOOTER */
-.footer-icons {
-  width: 25px;
-  display: inline-block;
-  background-color: #c7cfd6;
-  min-height: 25px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center; }
-
-.footer {
+.bandas {
   display: flex;
-  background-color: #c7cfd6;
-  min-height: 25px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: baseline;
-  margin: 30px 0 0 0;
-  padding-top: 10px; }
+  margin: 40px 300px 50px 300px; }
 
-.footer h1 {
-  font-size: 1.2em; }
+.bandas div {
+  width: 200px;
+  min-height: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: inline-block;
+  margin: 25px 0 0 0;
+  background-color: #c1caff36; }
 
-.lista-centrada a {
-  color: aliceblue;
-  font-size: 15px;
-  margin: 0 5px 0 5px; }
+.bandas img {
+  margin-bottom: 25px; }
+
+.bandas button {
+  background-color: black;
+  color: white;
+  padding: 5px 15px 5px 15px;
+  border-radius: 15px; }
+
+.titulo-separador {
+  border: double 10px white;
+  border-radius: 50px;
+  background-color: rgba(129, 129, 129, 0.712);
+  color: white; }
+
+@media (max-width: 1024px) {
+  .texto-random-centrado {
+    margin: 0 50px; } }
+
+.header-nosotros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 300px;
+  background-image: url(https://stimpunks.org/wp-content/uploads/2022/12/6947226867_99e2b0a0d7_k-1568x1050.jpg);
+  background-size: cover;
+  background-position-y: center;
+  filter: grayscale(100%); }
 
 .festival {
   text-align: center;
@@ -494,3 +689,11 @@ p {
     grid-template-columns: 1fr;
     grid-template-rows: 50px 0.2fr 0.8fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
     grid-template-areas: "textotop" "logo" "media" "top1" "top2" "top3" "top4" "top5" "footer"; } }
+
+.banner-logo {
+  background-color: black; }
+  .banner-logo p {
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    text-align: center; }

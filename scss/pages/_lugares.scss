@@ -1,3 +1,13 @@
+.header-lugares {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 300px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5e171c3a42bea35a20108311/e1010926-5b1c-4d67-9866-615bb6e0d487/275815900_1907583596119246_4501874139538143795_n.jpeg);
+    background-size: cover;
+    background-position-y: center;
+    filter: grayscale(100%);
+}
 .textos-mejores-festivales {
     margin: 2em 4em;
     text-align: center;

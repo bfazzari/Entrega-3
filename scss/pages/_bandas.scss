@@ -1,0 +1,81 @@
+.header-bandas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 300px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/18/Rock_concert_in_black_and_white_%28Unsplash%29.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+.main-bandas h2 {
+    text-align: center;
+}
+.main-bandas p {
+    text-align: center;
+    color: black;
+}
+.bandas {
+    display: flex;
+    /* border: dotted green 2px; */
+    flex-wrap: nowrap;
+    padding: 0 100px 0 100px;
+    margin: 50px 0 0 0;
+    flex-direction: row;
+}
+.bandas img {
+    width: 550px;
+    /* border: dotted 3px black; */
+}
+.bandas h1 {
+    text-align: right;
+}
+.bandas h2 {
+    text-align: right;
+}
+.bandas li a {
+    text-align: right;
+    color: dimgrey;
+}
+.bandas img {
+    width: 200px;
+}
+.bandas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 300px 50px 300px;
+}
+.bandas div {
+    width: 200px;
+    min-height: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: inline-block;
+    margin: 25px 0 0 0;
+    background-color: #c1caff36;
+}
+.bandas img {
+    margin-bottom: 25px;
+}
+.bandas button {
+    background-color: black;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+}
+.titulo-separador {
+    border: double 10px rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: rgba(129, 129, 129, 0.712);
+    color: white;
+}
+
+// RESPONSIVE - MEDIA QUERIES
+@media (max-width: 1024px) {
+    .texto-random-centrado {
+        margin: 0 50px;
+
+    }
+}

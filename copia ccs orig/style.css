@@ -56,7 +56,7 @@ a {
 }
 
 
-.header-bandas {
+/* .header-bandas {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -64,7 +64,7 @@ a {
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/18/Rock_concert_in_black_and_white_%28Unsplash%29.jpg);
     background-size: cover;
     background-position-y: center;
-}
+} */
 
 
 
@@ -309,22 +309,19 @@ a {
 }
 
 
-.bandas {
+/* .bandas {
     display: flex;
-    /* border: dotted green 2px; */
     flex-wrap: nowrap;
     padding: 0 100px 0 100px;
     margin: 50px 0 0 0;
     flex-direction: row;
-}
+} */
 
 
-.bandas img {
+/* .bandas img {
     width: 550px;
-    /* border: dotted 3px black; */
-
-}
-
+} */
+/* 
 .bandas h1 {
     text-align: right;
 }
@@ -348,9 +345,9 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 40px 300px 50px 300px;
-}
+} */
 
-.bandas div {
+/* .bandas div {
     width: 200px;
     min-height: 300px;
     padding: 10px;
@@ -363,7 +360,7 @@ a {
 
 .bandas img {
     margin-bottom: 25px;
-}
+} */
 
 /* .contenedor-bandas {
     display: flex;
@@ -385,26 +382,26 @@ a {
     color: black;
 } */
 
-.bandas button {
+/* .bandas button {
     background-color: black;
     color: white;
     padding: 5px 15px 5px 15px;
     border-radius: 15px;
-}
+} */
 
 
-.container-form {
+/* .container-form {
     background-color: rgb(238, 238, 238);
     margin: 50px auto;
     padding: 20px;
     border-radius: 15px;
     max-width: 800px;
 
-}
+} */
 
 /* FORMULARIO CONTACTO */
 
-.contenedor-form {
+/* .contenedor-form {
     display: flex;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.24) 5px 5px 25px;
@@ -430,9 +427,9 @@ a {
 .main-contacto p {
     margin: auto 250px;
     text-align: left;
-}
+} */
 
-/* FAQ */
+/* FAQ
 .contenedor-faq {
     background-color: #e9eced;
     padding: 1px;
@@ -451,9 +448,9 @@ a {
 
 .accordion-header {
     margin: 5px auto !important;
-}
+} */
 
-/* BANNER LOGO */
+/* BANNER LOGO
 .banner-logo {
     background-color: black;
 }
@@ -463,7 +460,7 @@ a {
     font-size: 2em;
     color: white;
     text-align: center;
-}
+} */
 
 /* FOOTER
 
@@ -497,14 +494,14 @@ a {
 
 
 
-.titulo-separador {
+/* .titulo-separador {
     border: double 10px rgb(255, 255, 255);
     border-radius: 50px;
     background-color: rgba(129, 129, 129, 0.712);
     color: white;
-}
+} */
 
-/* MAPA */
+/* MAPA
 
 .mapa {
     display: flex;
@@ -516,7 +513,7 @@ a {
 
 .mapa iframe {
     width: 100%;
-}
+} */
 
 /* NOSOTROS */
 
@@ -820,20 +817,20 @@ BUSCADOR DE LUGARES
 
 
 /* MEDIA QUERIES */
-@media (max-width: 1290px) {
+/* @media (max-width: 1290px) {
     .main-contacto p {
         width: 60%;
         margin: auto;
         text-align: left;
 
     }
-}
+} */
 
 @media (max-width: 1024px) {
-    .texto-random-centrado {
+    /* .texto-random-centrado {
         margin: 0 50px;
 
-    }
+    } */
 
     .lugares {
         display: flex;
@@ -857,14 +854,14 @@ BUSCADOR DE LUGARES
         /* background-image: none; */
     }
 
-    .main-contacto p {
+    /* .main-contacto p {
         width: 80%;
     }
 
     .main-contacto h2 {
         text-align: center;
         margin: 60px auto;
-    }
+    } */
 
     .contenedor-buscador-lugares .row {
         flex-direction: column;
@@ -894,10 +891,10 @@ BUSCADOR DE LUGARES
         /* background-image: none; */
     }
 
-    .main-contacto p {
+    /* .main-contacto p {
         display: none;
 
-    }
+    } */
 
     /* .textos-mejores-festivales h4 {
         display: none;
@@ -991,10 +988,10 @@ BUSCADOR DE LUGARES
             /* background-image: none; */
         }
 
-        .main-contacto p {
+        /* .main-contacto p {
             display: none;
 
-        }
+        } */
 
         /* .textos-mejores-festivales h4 {
             display: none;

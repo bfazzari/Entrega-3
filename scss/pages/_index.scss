@@ -1,3 +1,13 @@
+.header-index {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 300px;
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2022/08/What-Is-the-Future-of-Live-Music.jpg?w=1600&h=900&crop=1);
+    background-size: cover;
+    background-position-y: center;
+    filter: grayscale(100%);
+}
 // FRASES RANDOM
 .contenedor-frases {
     padding: 9.375rem 0rem 3.75rem 0rem;
