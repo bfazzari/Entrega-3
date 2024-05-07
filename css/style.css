@@ -16,12 +16,6 @@ li {
 a {
   text-decoration: none; }
 
-.header {
-  padding-bottom: 300px;
-  background-image: url(https://www.rollingstone.com/wp-content/uploads/2022/08/What-Is-the-Future-of-Live-Music.jpg?w=1600&h=900&crop=1);
-  background-size: cover;
-  background-position-y: center; }
-
 /* BOOTSTRAP */
 .navbar-expand-lg .navbar-collapse {
   justify-content: flex-end; }
@@ -95,10 +89,9 @@ a {
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 300px;
-  background-image: url(https://www.rollingstone.com/wp-content/uploads/2022/08/What-Is-the-Future-of-Live-Music.jpg?w=1600&h=900&crop=1);
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/18/Rock_concert_in_black_and_white_%28Unsplash%29.jpg);
   background-size: cover;
-  background-position-y: center;
-  filter: grayscale(100%); }
+  background-position-y: center; }
 
 .contenedor-frases {
   padding: 9.375rem 0rem 3.75rem 0rem;
@@ -150,10 +143,9 @@ a {
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 300px;
-  background-image: url(https://images.squarespace-cdn.com/content/v1/5e171c3a42bea35a20108311/e1010926-5b1c-4d67-9866-615bb6e0d487/275815900_1907583596119246_4501874139538143795_n.jpeg);
+  background-image: url(https://mohegansun.com/content/dam/mohegansun/Images/Entertainment/arena/carousel-arena-wayfinder-1440x620.jpg);
   background-size: cover;
-  background-position-y: center;
-  filter: grayscale(100%); }
+  background-position-y: center; }
 
 .textos-mejores-festivales {
   margin: 2em 4em;
@@ -392,7 +384,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 300px;
-  background-image: url(https://images6.alphacoders.com/438/438072.jpg);
+  background-image: url(https://images.pond5.com/concert-phone-music-light-090454948_prevstill.jpeg);
   background-size: cover;
   background-position-y: center;
   filter: grayscale(100%); }
@@ -559,8 +551,7 @@ p {
   padding-bottom: 300px;
   background-image: url(https://stimpunks.org/wp-content/uploads/2022/12/6947226867_99e2b0a0d7_k-1568x1050.jpg);
   background-size: cover;
-  background-position-y: center;
-  filter: grayscale(100%); }
+  background-position-y: center; }
 
 .festival {
   text-align: center;
