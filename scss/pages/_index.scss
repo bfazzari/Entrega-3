@@ -3,9 +3,12 @@
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 300px;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/18/Rock_concert_in_black_and_white_%28Unsplash%29.jpg);
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2022/08/What-Is-the-Future-of-Live-Music.jpg?w=1581&h=1054&crop=1);
     background-size: cover;
     background-position-y: center;
+}
+hr{
+    border-top: 1px solid red;
 }
 // FRASES RANDOM
 .contenedor-frases {
@@ -44,7 +47,7 @@
     }
    
        button {
-        background-color: white;
+        background-color: transparent;
         border: none;
         border-radius: 15px;
         padding: 0 10px;
@@ -53,6 +56,11 @@
     button:hover {
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         transition: box-shadow 0.7s ease-in-out;
+        background-color: #f7a800;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+     
 
     }
 

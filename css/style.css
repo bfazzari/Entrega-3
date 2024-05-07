@@ -1,10 +1,14 @@
 @import url("https:fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif; }
+
+body {
+  background-color: #e6e6e6; }
 
 .logo-che {
   width: -50%;
@@ -89,9 +93,12 @@ a {
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 300px;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/18/Rock_concert_in_black_and_white_%28Unsplash%29.jpg);
+  background-image: url(https://www.rollingstone.com/wp-content/uploads/2022/08/What-Is-the-Future-of-Live-Music.jpg?w=1581&h=1054&crop=1);
   background-size: cover;
   background-position-y: center; }
+
+hr {
+  border-top: 1px solid red; }
 
 .contenedor-frases {
   padding: 9.375rem 0rem 3.75rem 0rem;
@@ -119,7 +126,7 @@ a {
   width: 100%; }
 
 .container-lugares-mas-importantes button {
-  background-color: white;
+  background-color: transparent;
   border: none;
   border-radius: 15px;
   padding: 0 10px;
@@ -127,7 +134,11 @@ a {
 
 .container-lugares-mas-importantes button:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  transition: box-shadow 0.7s ease-in-out; }
+  transition: box-shadow 0.7s ease-in-out;
+  background-color: #f7a800;
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear; }
 
 .container-lugares-mas-importantes button:not(:hover) {
   box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
@@ -143,7 +154,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 300px;
-  background-image: url(https://mohegansun.com/content/dam/mohegansun/Images/Entertainment/arena/carousel-arena-wayfinder-1440x620.jpg);
+  background-image: url(https://images.squarespace-cdn.com/content/v1/627ce7220783f2160a22cca9/36dec092-3c79-4b5a-a3ce-92c6366d7de9/DSC01019.jpg);
   background-size: cover;
   background-position-y: center; }
 
@@ -552,6 +563,52 @@ p {
   background-image: url(https://stimpunks.org/wp-content/uploads/2022/12/6947226867_99e2b0a0d7_k-1568x1050.jpg);
   background-size: cover;
   background-position-y: center; }
+
+.contenedor-pricing {
+  background-color: black; }
+  .contenedor-pricing .card {
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%); }
+
+.contenedor-uanc {
+  background-image: url(/resources/imgs/banners/celus-che.jpg);
+  width: 100%;
+  padding: 100px 55px;
+  background-position: right;
+  background-size: cover; }
+  .contenedor-uanc .contenido-uanc {
+    text-align: left;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    height: 100%;
+    background-size: cover; }
+    .contenedor-uanc .contenido-uanc h1 {
+      font-family: "Noto Serif", serif; }
+    .contenedor-uanc .contenido-uanc ul {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: space-around; }
+    .contenedor-uanc .contenido-uanc .contenedor-input {
+      display: flex; }
+      .contenedor-uanc .contenido-uanc .contenedor-input button {
+        background-color: #cfcfcf; }
+
+.contenedor-nosotors-jefes .card {
+  border-radius: 10px 10px 20px 20px;
+  overflow: hidden; }
+  .contenedor-nosotors-jefes .card h5, .contenedor-nosotors-jefes .card p {
+    color: black; }
+
+.contenedor-nosotors-jefes .card-img-top {
+  transition: transform 0.3s ease; }
+
+.contenedor-nosotors-jefes .card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); }
+
+.contenedor-nosotors-jefes .card:hover .card-img-top {
+  transform: scale(1.05);
+  filter: grayscale(75%); }
 
 .festival {
   text-align: center;

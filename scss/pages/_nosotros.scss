@@ -7,3 +7,69 @@
     background-size: cover;
     background-position-y: center;
 }
+
+
+.contenedor-pricing {
+    background-color: black;
+
+    .card {
+        background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    }
+}
+
+.contenedor-uanc {
+    background-image: url(/resources/imgs/banners/celus-che.jpg);
+    width: 100%;
+    padding: 100px 55px;
+    background-position: right;
+    background-size: cover;
+
+    .contenido-uanc {
+        text-align: left;
+        -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        height: 100%;
+        background-size: cover;
+
+        h1 {
+            font-family: $fuente-titulos-banner;
+        }
+
+        ul {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .contenedor-input {
+            display: flex;
+
+            button {
+                background-color: #cfcfcf;
+            }
+        }
+    }
+}
+.contenedor-nosotors-jefes{
+    .card{
+        border-radius: 10px 10px 20px 20px;
+        overflow: hidden;
+        h5, p{
+            color: black;
+        
+        }
+    }
+    .card-img-top {
+        transition: transform 0.3s ease;
+    }
+    .card:hover {
+        box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+    .card:hover .card-img-top {
+        transform: scale(1.05);
+        filter: grayscale(75%);
+    }
+}
+
