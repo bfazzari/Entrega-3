@@ -100,6 +100,11 @@ a {
 hr {
   border-top: 1px solid red; }
 
+.busqueda .col-sm-2 {
+  text-align: center; }
+  .busqueda .col-sm-2 button {
+    margin-top: 15px; }
+
 .contenedor-frases {
   padding: 9.375rem 0rem 3.75rem 0rem;
   background-image: url(/resources/imgs/phrases/textura-papel.jpg);
