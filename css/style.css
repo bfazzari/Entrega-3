@@ -102,7 +102,7 @@ hr {
 
 .contenedor-frases {
   padding: 9.375rem 0rem 3.75rem 0rem;
-  background-image: url(/resources/imgs/phrases/textura-papel.jpg);
+  background-image: url(/resources/imgs/phrases/textura-papel.avif);
   background-repeat: no-repeat;
   background-size: cover;
   /* Set a specific height */
@@ -672,7 +672,7 @@ p {
   color: black; }
 
 .fondo-aberraciones-tv {
-  background-image: url(/resources/imgs/bad-tv_2.gif);
+  background-image: url(/resources/imgs/gifs/bad-tv.gif);
   background-size: cover;
   height: 100%;
   padding: 0;
