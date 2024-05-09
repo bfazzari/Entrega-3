@@ -176,6 +176,14 @@ hr {
     grid-gap: 5px !important;
     margin: 0 !important; } }
 
+@media (max-width: 770px) {
+  .contenedor-frases {
+    background-image: none;
+    background-color: darkgray; }
+    .contenedor-frases h2 {
+      font-size: 1em;
+      text-align: center; } }
+
 @media (max-width: 699px) {
   .festival img {
     max-width: 699px; }
@@ -195,9 +203,19 @@ hr {
     margin: auto 20px !important; } }
 
 @media (max-width: 535px) {
+  .header-index {
+    background-image: none;
+    padding-bottom: 31px; }
   .lugares img {
     width: 100%;
-    max-width: 550px; } }
+    max-width: 550px; }
+  .frase-pequeña h2 {
+    font-size: 1em;
+    text-align: center;
+    color: #c2c2c2;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 2.5em; } }
 
 .header-lugares {
   display: flex;
