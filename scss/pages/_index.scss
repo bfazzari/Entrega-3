@@ -7,33 +7,42 @@
     background-size: cover;
     background-position-y: center;
 }
-hr{
+
+.frase-pequeña {
+    display: none;
+}
+
+hr {
     border-top: 1px solid red;
 }
-.busqueda{
-.col-sm-2{
-    text-align: center;
-    button{
-        margin-top: 15px;
+
+.busqueda {
+    --bs-gutter-x: 0;
+
+    .col-sm-3 {
+        text-align: center;
+        margin: 1em;
+        text-align: center;
+
+        button {
+            margin-top: 15px;
+        }
     }
 }
 
-
-}
 // FRASES RANDOM
 .contenedor-frases {
     padding: 9.375rem 0rem 3.75rem 0rem;
-    background-image: url(/resources/imgs/phrases/textura-papel.jpg);
+    background-image: url(../resources/imgs/phrases/textura-papel.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
-      /* Set a specific height */
-  min-height: 500px;
+    /* Set a specific height */
+    min-height: 500px;
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
- 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
 
     .frase {
         position: relative;
@@ -46,43 +55,98 @@ hr{
         }
     }
 }
+
 // GRILLA DE LUGARES MAS IMPORTANTES
 .container-lugares-mas-importantes {
-    h2{
+    h2 {
         margin-top: 75px;
     }
-    iframe{
+
+    iframe {
         margin: 30px auto;
         width: 100%;
     }
-   
-       button {
+
+    button {
         background-color: transparent;
         border: none;
         border-radius: 15px;
         padding: 0 10px;
         margin-bottom: 15px;
     }
+
     button:hover {
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         transition: box-shadow 0.7s ease-in-out;
         background-color: #f7a800;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
-     
-
+        -webkit-transition: background-color 1000ms linear;
+        -ms-transition: background-color 1000ms linear;
+        transition: background-color 1000ms linear;
     }
 
     button:not(:hover) {
         box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
         transition: box-shadow 0.4s ease-in-out;
     }
-
 }
 
-
 // RESPONSIVE - MEDIA QUERIES
+@media (max-width: 1170px) {
+    .contenedor-top-5-places {
+        grid-gap: 0.5rem;
+        margin: 5em 2em;
+
+        .card {
+            max-width: 100% !important;
+        }
+    }
+
+    .busqueda {
+        --bs-gutter-x: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .contenedor-top-5-places {
+        display: grid;
+        height: 100%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.1fr 0.3fr 0.3fr 0.1fr;
+        grid-template-areas:
+            "textotop textotop textotop textotop"
+            "media logo top1 top2"
+            "media top3 top4 top5"
+            "media footer footer footer";
+        grid-gap: 5px !important;
+        margin: 0 !important;
+
+    }
+}
+
+@media (max-width: 699px) {
+    .festival img {
+        max-width: 699px;
+    }
+    .contenedor-frases {
+        display: none;
+    }
+    .frase-pequeña {
+        display: block;
+        background-color: black;
+        h2 {
+            text-align: center;
+            color: rgb(194, 194, 194);
+            padding: 100px;
+            font-family: $fuente-frases;
+        }
+    }
+    .fondo-aberraciones-tv {
+        display: none;
+    }
+    .contenedor-top-5-places {
+        margin: auto 20px !important;
+    }
+}
 
 @media (max-width: 535px) {
     .lugares img {

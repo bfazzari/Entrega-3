@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https:fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
@@ -97,17 +98,24 @@ a {
   background-size: cover;
   background-position-y: center; }
 
+.frase-pequeña {
+  display: none; }
+
 hr {
   border-top: 1px solid red; }
 
-.busqueda .col-sm-2 {
-  text-align: center; }
-  .busqueda .col-sm-2 button {
-    margin-top: 15px; }
+.busqueda {
+  --bs-gutter-x: 0; }
+  .busqueda .col-sm-3 {
+    text-align: center;
+    margin: 1em;
+    text-align: center; }
+    .busqueda .col-sm-3 button {
+      margin-top: 15px; }
 
 .contenedor-frases {
   padding: 9.375rem 0rem 3.75rem 0rem;
-  background-image: url(/resources/imgs/phrases/textura-papel.jpg);
+  background-image: url(../resources/imgs/phrases/textura-papel.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /* Set a specific height */
@@ -148,6 +156,43 @@ hr {
 .container-lugares-mas-importantes button:not(:hover) {
   box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
   transition: box-shadow 0.4s ease-in-out; }
+
+@media (max-width: 1170px) {
+  .contenedor-top-5-places {
+    grid-gap: 0.5rem;
+    margin: 5em 2em; }
+    .contenedor-top-5-places .card {
+      max-width: 100% !important; }
+  .busqueda {
+    --bs-gutter-x: 0; } }
+
+@media (max-width: 800px) {
+  .contenedor-top-5-places {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 0.3fr 0.3fr 0.1fr;
+    grid-template-areas: "textotop textotop textotop textotop" "media logo top1 top2" "media top3 top4 top5" "media footer footer footer";
+    grid-gap: 5px !important;
+    margin: 0 !important; } }
+
+@media (max-width: 699px) {
+  .festival img {
+    max-width: 699px; }
+  .contenedor-frases {
+    display: none; }
+  .frase-pequeña {
+    display: block;
+    background-color: black; }
+    .frase-pequeña h2 {
+      text-align: center;
+      color: #c2c2c2;
+      padding: 100px;
+      font-family: "Rubik Mono One", monospace; }
+  .fondo-aberraciones-tv {
+    display: none; }
+  .contenedor-top-5-places {
+    margin: auto 20px !important; } }
 
 @media (max-width: 535px) {
   .lugares img {
@@ -677,7 +722,7 @@ p {
   color: black; }
 
 .fondo-aberraciones-tv {
-  background-image: url(/resources/imgs/gifs/bad-tv.gif);
+  background-image: url(../resources/imgs/gifs/bad-tv.gif);
   background-size: cover;
   height: 100%;
   padding: 0;

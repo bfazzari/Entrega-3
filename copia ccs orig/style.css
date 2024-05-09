@@ -597,13 +597,13 @@ a {
 
 /* GRILLA */
 
-.contenedor-grilla {
+/* .contenedor-grilla {
     background-color: black;
-}
+} */
 
-.img-overflow {
+/* .img-overflow {
     overflow: hidden;
-}
+} */
 
 /* .contenedor-grilla h1,
 hr,
@@ -687,7 +687,7 @@ card-group-scroll {
     gap: 20px;
 } */
 
-.card-1,
+/* .card-1,
 .card-2,
 .card-3,
 .card-4,
@@ -701,7 +701,7 @@ card-group-scroll {
     overflow: hidden;
     background-size: cover;
     background-position: center center;
-}
+} */
 
 .card-1 {
     background-image: url(https://st4.depositphotos.com/5392356/38061/i/450/depositphotos_380610030-stock-photo-happy-cheering-crowd-hands-air.jpg);
@@ -881,9 +881,9 @@ BUSCADOR DE LUGARES
 }
 
 @media (max-width: 699px) {
-    .festival img {
+    /* .festival img {
         max-width: 699px;
-    }
+    } */
 
     .header {
         margin-top: 100px;
