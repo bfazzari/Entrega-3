@@ -7,6 +7,7 @@
     background-size: cover;
     background-position-y: center;
     filter: grayscale(100%);
+    position: sticky;
 }
 /* FORMULARIO CONTACTO */
 
@@ -99,11 +100,17 @@
 @media (max-width: 699px){
     .main-contacto p {
         display: none;
-
+    }
+    .header-contacto{
+        background-image: none;
+        padding-bottom: 30px;
     }
 }
 @media (max-width: 391px){
     .main-contacto p {
+        display: none;
+    }
+    .mapa{
         display: none;
     }
 }

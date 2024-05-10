@@ -520,7 +520,8 @@ p {
   background-image: url(https://images.pond5.com/concert-phone-music-light-090454948_prevstill.jpeg);
   background-size: cover;
   background-position-y: center;
-  filter: grayscale(100%); }
+  filter: grayscale(100%);
+  position: sticky; }
 
 /* FORMULARIO CONTACTO */
 .contenedor-form {
@@ -601,10 +602,15 @@ p {
 
 @media (max-width: 699px) {
   .main-contacto p {
-    display: none; } }
+    display: none; }
+  .header-contacto {
+    background-image: none;
+    padding-bottom: 30px; } }
 
 @media (max-width: 391px) {
   .main-contacto p {
+    display: none; }
+  .mapa {
     display: none; } }
 
 .header-bandas {
@@ -634,73 +640,22 @@ h3 {
     .contenedor-bandas .card .card-body .btn {
       background-color: black; }
 
-.main-bandas h2 {
-  text-align: center; }
-
-.main-bandas p {
-  text-align: center;
-  color: black; }
-
-.bandas {
-  display: flex;
-  /* border: dotted green 2px; */
-  flex-wrap: nowrap;
-  padding: 0 100px 0 100px;
-  margin: 50px 0 0 0;
-  flex-direction: row; }
-
-.bandas img {
-  width: 550px;
-  /* border: dotted 3px black; */ }
-
-.bandas h1 {
-  text-align: right; }
-
-.bandas h2 {
-  text-align: right; }
-
-.bandas li a {
-  text-align: right;
-  color: dimgrey; }
-
-.bandas img {
-  width: 200px; }
-
-.bandas {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 40px 300px 50px 300px; }
-
-.bandas div {
-  width: 200px;
-  min-height: 300px;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  display: inline-block;
-  margin: 25px 0 0 0;
-  background-color: #c1caff36; }
-
-.bandas img {
-  margin-bottom: 25px; }
-
-.bandas button {
-  background-color: black;
-  color: white;
-  padding: 5px 15px 5px 15px;
-  border-radius: 15px; }
-
-.titulo-separador {
-  border: double 10px white;
-  border-radius: 50px;
-  background-color: rgba(129, 129, 129, 0.712);
-  color: white; }
-
 @media (max-width: 1024px) {
   .texto-random-centrado {
     margin: 0 50px; } }
+
+@media (max-width: 500px) {
+  .texto-random-centrado {
+    margin: 0 50px; }
+  .contenedor-bandas {
+    margin: auto 5em;
+    gap: 0px;
+    width: auto; } }
+
+@media (max-width: 391px) {
+  .header-bandas {
+    background-image: none;
+    padding-bottom: 70px; } }
 
 .header-nosotros {
   display: flex;
