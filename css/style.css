@@ -157,6 +157,23 @@ hr {
   box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
   transition: box-shadow 0.4s ease-in-out; }
 
+.logo-che-animado {
+  text-align: center;
+  color: #e6e6e6;
+  font-size: 0;
+  line-height: 1.5;
+  font-weight: bold; }
+  .logo-che-animado span {
+    font-size: 5rem;
+    display: inline-block;
+    animation: animacion 2s ease-in-out infinite; }
+
+@keyframes animacion {
+  0% {
+    transform: translate(-30%, 0); }
+  50% {
+    text-shadow: 0 25px 50px black; } }
+
 @media (max-width: 1170px) {
   .contenedor-top-5-places {
     grid-gap: 0.5rem;
@@ -259,6 +276,32 @@ hr {
   overflow: hidden;
   background-size: cover;
   background-position: center center; }
+  .card-1 .textos,
+  .card-2 .textos,
+  .card-3 .textos,
+  .card-4 .textos,
+  .card-5 .textos,
+  .card-6 .textos {
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    /* FLEXBOX */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* GRID
+    display: grid;
+    grid-template-rows: 1fr auto; */ }
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover,
+.card-4:hover,
+.card-5:hover,
+.card-6:hover {
+  transition: transform 0.7s ease;
+  transform: scale(1.02);
+  filter: sepia(); }
 
 .card-1 {
   background-image: url(https://st4.depositphotos.com/5392356/38061/i/450/depositphotos_380610030-stock-photo-happy-cheering-crowd-hands-air.jpg); }
@@ -278,22 +321,6 @@ hr {
 .card-6 {
   background-image: url(https://www.alpinehearingprotection.co.uk/cdn/shop/articles/bannerblogwebshopmuziek1_a02523f3-0426-4a67-9bf9-7c310aae843a.png?v=1665066849&width=1100); }
 
-.card-1 .textos,
-.card-2 .textos,
-.card-3 .textos,
-.card-4 .textos,
-.card-5 .textos,
-.card-6 .textos {
-  height: 100%;
-  color: white;
-  /* FLEXBOX */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  /* GRID
-    display: grid;
-    grid-template-rows: 1fr auto; */ }
-
 .banner {
   border-radius: 10px;
   text-align: center !important;
@@ -305,27 +332,25 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
-
-.banner ul {
-  list-style: none; }
-
-.banner ul li {
-  margin: 15px;
-  font-weight: bold;
-  display: block; }
-
-.banner .boton {
-  background: #FFD600;
-  display: block;
-  width: 100%;
-  font-weight: bold;
-  font-size: 14px;
-  text-align: center;
-  padding: 10px;
-  border: none;
-  border-radius: 100px;
-  font-family: 'Roboto', sans-serif;
-  cursor: pointer; }
+  .banner .boton {
+    background: #FFD600;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer; }
+  .banner ul {
+    list-style: none;
+    padding-left: 0; }
+    .banner ul li {
+      margin: 15px;
+      font-weight: bold;
+      display: block; }
 
 /* BUSCADOR DE LUGARES */
 .contenedor-buscador-lugares {
@@ -338,10 +363,9 @@ hr {
   display: grid;
   grid-template-rows: 2fr 1fr 2fr;
   background-image: url(/resources/imgs/lugares/rockbands-wallpaper.jpg); }
-
-.contenedor-buscador-lugares .col {
-  /* background-color: red; */
-  margin: auto 5px; }
+  .contenedor-buscador-lugares .col {
+    /* background-color: red; */
+    margin: auto 5px; }
 
 /* GRILLA */
 .contenedor-grilla {
@@ -376,21 +400,75 @@ p {
   color: black;
   font-weight: bold; }
 
-.main-bandas h2 {
-  text-align: center; }
-
 .main-bandas p {
   text-align: center;
   color: black; }
+
+.main-bandas h2 {
+  text-align: center; }
 
 .contenedor-bandas {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 2em; }
+  .contenedor-bandas .card {
+    margin: 1em auto; }
 
-.contenedor-bandas .card {
-  margin: 1em auto; }
+@media (max-width: 991px) {
+  .header-lugares {
+    background-image: none;
+    padding-bottom: 170px; }
+  .textos-mejores-festivales {
+    margin: 4em 4em 0 4em; }
+    .textos-mejores-festivales h1 {
+      margin-bottom: 20px; }
+  .contenedor-buscador-lugares .row {
+    flex-direction: column; }
+  .contenedor-buscador-lugares .dropdown {
+    display: none; }
+  .contenedor-grilla {
+    padding: 30px; } }
+
+@media (max-width: 800px) {
+  .texto-random-centrado {
+    margin: 0px 50px 0 50px;
+    text-align: center; } }
+
+@media (max-width: 699px) {
+  .header-lugares {
+    padding-bottom: 30px; }
+  .textos-mejores-festivales h4 {
+    display: none; }
+  .texto-random-centrado {
+    margin: 0 10px 0 10px !important;
+    text-align: center; }
+  .contenedor-grilla-lugares {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    gap: 20px; }
+  .contenedor-grilla {
+    display: none; }
+  .contenedor-lugares h3 {
+    text-shadow: 2px 2px 4px #000000; }
+  .contenedor-lugares p {
+    display: none; }
+  .contenedor-lugares .textos {
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-90deg); }
+  .contenedor-buscador-lugares {
+    background-image: none; } }
 
 @media (max-width: 391px) {
   .textos-mejores-festivales h4 {
@@ -418,45 +496,21 @@ p {
   .contenedor-lugares p {
     display: none; }
   .contenedor-buscador-lugares {
-    background-image: none; } }
-
-@media (max-width: 699px) {
-  .textos-mejores-festivales h4 {
-    display: none; }
-  .contenedor-grilla-lugares {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: stretch;
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 40px 0;
-    gap: 20px; }
-  .contenedor-grilla {
-    display: none; }
-  .contenedor-lugares .textos {
-    height: 100%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transform: rotate(-90deg); }
-  .contenedor-lugares p {
-    display: none; }
-  .contenedor-buscador-lugares {
-    background-image: none; } }
-
-@media (max-width: 991px) {
-  .textos-mejores-festivales {
-    margin: 4em 4em 0 4em; }
-  .contenedor-buscador-lugares .row {
-    flex-direction: column; }
-  .contenedor-buscador-lugares .dropdown {
-    display: none; }
-  .contenedor-grilla {
-    padding: 30px; } }
+    background-image: none; }
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5,
+  .card-6 {
+    filter: grayscale(75%); }
+    .card-1 a,
+    .card-2 a,
+    .card-3 a,
+    .card-4 a,
+    .card-5 a,
+    .card-6 a {
+      font-weight: bold; } }
 
 .header-contacto {
   display: flex;

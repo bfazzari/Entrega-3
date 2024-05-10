@@ -7,18 +7,14 @@
     background-size: cover;
     background-position-y: center;
 }
-
 .frase-pequeña {
     display: none;
 }
-
 hr {
     border-top: 1px solid red;
 }
-
 .busqueda {
     --bs-gutter-x: 0;
-
     .col-sm-3 {
         text-align: center;
         margin: 1em;
@@ -36,19 +32,15 @@ hr {
     background-image: url(../resources/imgs/phrases/textura-papel.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
     /* Set a specific height */
     min-height: 500px;
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
-
     .frase {
         position: relative;
         width: 775px;
         margin: auto;
-
         h2 {
             font-family: $fuente-frases;
             font-style: italic;
@@ -61,12 +53,10 @@ hr {
     h2 {
         margin-top: 75px;
     }
-
     iframe {
         margin: 30px auto;
         width: 100%;
     }
-
     button {
         background-color: transparent;
         border: none;
@@ -74,7 +64,6 @@ hr {
         padding: 0 10px;
         margin-bottom: 15px;
     }
-
     button:hover {
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         transition: box-shadow 0.7s ease-in-out;
@@ -83,19 +72,41 @@ hr {
         -ms-transition: background-color 1000ms linear;
         transition: background-color 1000ms linear;
     }
-
     button:not(:hover) {
         box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
         transition: box-shadow 0.4s ease-in-out;
     }
 }
 
+
+.logo-che-animado{
+    text-align: center;
+    color:rgb(230, 230, 230);
+    font-size: 0;
+    line-height: 1.5;
+    font-weight: bold;
+    span{
+        font-size: 5rem;
+        display: inline-block;
+       animation: animacion 2s ease-in-out infinite;
+    }
+}
+@keyframes animacion{
+    0%{
+        transform: translate(-30%,0);
+    }
+    50%{
+        text-shadow: 0 25px 50px black;
+    }
+}
+
+
+
 // RESPONSIVE - MEDIA QUERIES
 @media (max-width: 1170px) {
     .contenedor-top-5-places {
         grid-gap: 0.5rem;
         margin: 5em 2em;
-
         .card {
             max-width: 100% !important;
         }
