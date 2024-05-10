@@ -362,7 +362,7 @@ hr {
   /* GRID */
   display: grid;
   grid-template-rows: 2fr 1fr 2fr;
-  background-image: url(/resources/imgs/lugares/rockbands-wallpaper.jpg); }
+  background-image: url(../resources/imgs/lugares/rockbands-wallpaper.jpg); }
   .contenedor-buscador-lugares .col {
     /* background-color: red; */
     margin: auto 5px; }
@@ -615,6 +615,24 @@ p {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/18/Rock_concert_in_black_and_white_%28Unsplash%29.jpg);
   background-size: cover;
   background-position-y: center; }
+
+h2 {
+  text-align: center; }
+
+h3 {
+  text-align: center;
+  margin-top: 4em; }
+
+.contenedor-bandas {
+  margin: auto 10em;
+  gap: 10px;
+  width: auto; }
+  .contenedor-bandas .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    .contenedor-bandas .card .card-body p {
+      color: black; }
+    .contenedor-bandas .card .card-body .btn {
+      background-color: black; }
 
 .main-bandas h2 {
   text-align: center; }
