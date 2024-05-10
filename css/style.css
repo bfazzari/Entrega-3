@@ -726,7 +726,8 @@ p {
 .contenedor-nosotros-jefes .card {
   border-radius: 10px 10px 20px 20px;
   overflow: hidden; }
-  .contenedor-nosotros-jefes .card h5, .contenedor-nosotros-jefes .card p {
+  .contenedor-nosotros-jefes .card h5,
+  .contenedor-nosotros-jefes .card p {
     color: black; }
   .contenedor-nosotros-jefes .card div {
     overflow: hidden;
@@ -750,6 +751,49 @@ p {
 
 .contenedor-objetivos p {
   color: #182848; }
+
+@media (max-width: 1024px) {
+  .textos-nosotros {
+    margin: 2em 2em; }
+    .textos-nosotros h4 {
+      margin: 2em 2em;
+      text-align: center; }
+  .contenedor-uanc {
+    background-size: auto; }
+    .contenedor-uanc h1 {
+      color: black; }
+    .contenedor-uanc .contenedor-input {
+      width: 75%; } }
+
+@media (max-width: 991px) {
+  .header-nosotros {
+    background-image: none;
+    padding-bottom: 60px; }
+  .contenedor-nosotros-jefes .card div {
+    overflow: hidden;
+    height: 33%; } }
+
+@media (max-width: 800px) {
+  .contenedor-uanc {
+    padding: 50px 55px;
+    background-size: cover;
+    filter: sepia(25%); } }
+
+@media (max-width: 699px) {
+  .textos-nosotros h4 {
+    display: none; }
+  .contenedor-uanc {
+    text-shadow: 0 0 3px #000000;
+    background-size: inherit; }
+    .contenedor-uanc .contenido-uanc h1 {
+      color: #fffb1c; }
+    .contenedor-uanc .contenido-uanc li {
+      color: #ffee00; }
+    .contenedor-uanc .contenido-uanc .contenedor-input {
+      display: flex;
+      flex-direction: column; }
+      .contenedor-uanc .contenido-uanc .contenedor-input button {
+        background-color: #fae101; } }
 
 .festival {
   text-align: center;
